@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="352dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/kim"
+        android:contentDescription="담당 공무원 이미지" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:text="직급: 5급 공무원\n이름: 김수환\n이메일: KimSoohwan@dongguk.ac.kr\n연락처: 010-1901-9153\n상담 가능 시간: 09:00 ~ 18:00"
+        android:gravity="center_vertical" />
+</LinearLayout>
